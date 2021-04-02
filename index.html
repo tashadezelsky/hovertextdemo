@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage Test</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
 </head>
 <body>
 
@@ -16,6 +15,14 @@
     
     <div class="bgimage1"></div>
 
+    <script type="text/javascript">
+        const cursor = document.querySelector(".cursor");
+        window.addEventListener("mousemove", function(e){
+        cursor.style.left = (e.x-100)+"px";
+        cursor.style.top  = (e.y-100)+"px";
+        })
+    
+    </script>
     
 </body>
 </html>
