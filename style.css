@@ -1,0 +1,41 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html,body {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  
+  .scene {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    background: url('https://solarimpulse.com/files/news/hero_banner/2020-06-08-165259/1591627979.jpg') no-repeat fixed;
+    background-size: cover;
+   }
+  
+  .cursor {
+    position: absolute;
+    top: calc(50% - 10rem);
+    left: calc(50% - 10rem);
+    width: 25rem;
+    height: 25rem;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/b/bd/Waterhouse_Hylas_and_the_Nymphs_Manchester_Art_Gallery_1896.15.jpg') 50% 50% no-repeat fixed;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  
+  .bgimage1 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/b/bd/Waterhouse_Hylas_and_the_Nymphs_Manchester_Art_Gallery_1896.15.jpg') 50% 50% no-repeat fixed;
+    background-size: cover;
+    opacity: 50%;
+  }
